@@ -1,6 +1,5 @@
 package software.ulpgc.kata4.aplication;
 
-import io.javalin.http.Context;
 import software.ulpgc.kata4.domain.Game;
 
 import java.util.HashMap;
