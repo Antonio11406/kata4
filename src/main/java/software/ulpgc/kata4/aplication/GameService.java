@@ -18,7 +18,7 @@ public class GameService {
     public Game addGame(Game game){
         if(game == null || game.getId() == null || game.getTitle() == null) throw new IllegalArgumentException("esta vacio");
         if (games.containsKey(game.getId())) {
-            throw new IllegalArgumentException("Ya existe un juego con ese ID");
+            throw new IllegalArgumentException("Ya existe");
         }
         games.put(game.getId(), game);
         return game;
